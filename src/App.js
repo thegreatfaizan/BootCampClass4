@@ -33,7 +33,7 @@ function App() {
       The COVID-19 pandemic marks an unprecedented time in modern history that will require the best of humanity to overcome. Your donation to this fund will help stop COVID-19's spread and protect us all.
       </p>
       <button className='App-button'
-            onClick={()=>{setDonate(donate+1);Alert()}}>
+            onClick={()=>{setDonate(donate=donate+1);Alert()}}>
         Donate Rs.1
       </button>
       <h3>Total Donations: Rs.{donate}</h3>
