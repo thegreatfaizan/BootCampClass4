@@ -30,6 +30,9 @@ jobs:
       with:
         # Yarn command
         cmd: install # npm install/ yarn install
+      
+    - name: Build Yarn and npm
+      uses: linchpin/action-build-yarn-npm@master
     
     - name: Creating build
       run: yarn build
