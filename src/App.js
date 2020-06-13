@@ -1,13 +1,17 @@
+// eslint-disable-next-line
 import React, { useState } from 'react';
 import './App.css';
 import Alert from './AlertMsg.js';
 import Alert1 from './AlertMsg1.js';
+
+// eslint-disable-next-line
 
 function App() {  
   let [donate, setDonate] = useState(1);
   let [display, setDisplay] = useState(false);
   return (
     <div className = 'App'
+    // eslint-disable-next-line
         className = {`App-header ${display ? 'App-header1' : ''}`}> 
       <h1>COVID-19</h1>
       <p>
